@@ -1,7 +1,7 @@
 {
   "name": "annadata_backend",
   "version": "1.0.0",
-  "description": "backend of annadata website and app",
+  "description": "Backend of Annadata Website",
   "main": "server.js",
   "engines": {
     "node": "12.16.3",
