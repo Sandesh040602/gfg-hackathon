@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    
     "install-backend": "cd NodeBackend && npm install",
     "install-frontend": "cd ReactWebsite && npm install",
     "install-concurrently": "npm install -g concurrently",
