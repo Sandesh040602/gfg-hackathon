@@ -131,12 +131,6 @@ class App extends React.Component {
               <Scroll />
               <Footer />
             </Route>
-            <Route path="/crop">
-              <AppNavbar />
-              <Crop />
-              <Scroll />
-              <Footer />
-            </Route>
             <Route path="/suggest" exact>
               <AppNavbar />
               <CropSuggest />
