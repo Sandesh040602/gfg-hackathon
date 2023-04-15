@@ -23,7 +23,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import Community from './components/Community';
 import Modal from './components/Modal';
 import Soil from './components/Soil';
-import Crop from './components/Crop';
 import Location from './components/Location';
 import Schemes from './components/Schemes';
 import CropSuggest from './components/CropSuggest';
@@ -128,12 +127,6 @@ class App extends React.Component {
             <Route path="/sideIncome">
               <AppNavbar />
               <SideIncome />
-              <Scroll />
-              <Footer />
-            </Route>
-            <Route path="/crop">
-              <AppNavbar />
-              <Crop />
               <Scroll />
               <Footer />
             </Route>

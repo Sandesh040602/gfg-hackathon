@@ -205,18 +205,6 @@ class Location extends React.Component {
           <div style={{ display: 'flex', textAlign: 'center' }}>
             <Button
               color="primary"
-              onClick={this.onSubmit}
-              style={{
-                marginTop: '3rem',
-                marginBottom: '3rem',
-                marginLeft: '1rem',
-                marginRight: '1rem',
-              }}
-            >
-              Check Your Soil
-            </Button>
-            <Button
-              color="primary"
               onClick={this.onSubmitFire}
               style={{
                 marginTop: '3rem',
@@ -238,18 +226,6 @@ class Location extends React.Component {
               }}
             >
               Check For Pollen Grains
-            </Button>
-            <Button
-              color="primary"
-              onClick={this.onSubmitWater}
-              style={{
-                marginTop: '3rem',
-                marginBottom: '3rem',
-                marginLeft: '1rem',
-                marginRight: '1rem',
-              }}
-            >
-              Check for Humidity
             </Button>
             <Button
               color="primary"

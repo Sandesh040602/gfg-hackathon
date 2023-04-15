@@ -34,7 +34,7 @@ const Footer = () => {
         <div>
           <i className="fa fa-map-marker"></i>
           <p>
-            <span>IIT(ISM)</span> Dhanbad, Jharkhand
+            <span>IIIT</span> Naya Raipur
           </p>
         </div>
 
