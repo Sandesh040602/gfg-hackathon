@@ -12,7 +12,8 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', classes=30, autoshape = False)
 # the below line is giving error of no such file or directory.
-model.load_state_dict(torch.load(r'C:\Users\chand\Downloads\Annadata-master\Annadata-master\AIBackend\5s.pt', map_location = 'cpu')['model'].state_dict())
+model.load_state_dict(torch.load(r'C:\Users\sansk\OneDrive\Desktop\New folder (5)\New folder (2)\gfg-hackathon\AIBackend\5s.pt', map_location = 'cpu')['model'].state_dict())
+
 model = model.autoshape()
 # model = torch.hub.load('ultralytics/yolov5', 'custom', path_or_model = 'best.pt', map_location = 'cpu')
 model = model.to(device).eval()
@@ -34,8 +35,8 @@ def predict():
         im = Image.open(io.BytesIO(img_bytes))
         print("request time   ",time.time()-start)
         h, w = im.size
-
-        im = im.resize((416,416))
+        a=256
+        im = im.resize((a,a))
         start=time.time()
         result=model(np.array(im))
         print("inference time ",time.time()-start)
@@ -47,7 +48,7 @@ def predict():
         for i in range(len(result)):
             temp={}  
             temp['box']= result[i][:4]
-            modify= [w/416, h/416, w/416, h/416]
+            modify= [w/a, h/a, w/a, h/a]
             temp['box'] = [ int(temp['box'][j] * modify[j]) for j in range(4) ]
             
             temp['confidence']=float(result[i][4])

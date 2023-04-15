@@ -72,9 +72,6 @@ class AppNavbar extends React.Component {
               <NavLink href="/location" className="nav-link">
                 Location
               </NavLink>
-              <NavLink href="/crop" className="nav-link">
-                Crop
-              </NavLink>
               {/* <NavLink href="/soil" className="nav-link">
                             Soil
                           </NavLink> */}

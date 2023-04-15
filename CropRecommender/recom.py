@@ -12,7 +12,7 @@ classes = ['apple', 'banana', 'blackgram', 'chickpea', 'coconut', 'coffee',
        'mango', 'mothbeans', 'mungbean', 'muskmelon', 'orange', 'papaya',
        'pigeonpeas', 'pomegranate', 'rice', 'watermelon']
 #the below line is giving error
-clf = pickle.load(open(r'Annadata-master\CropRecommender\recommender.pkl', 'rb'))
+clf = pickle.load(open(r'C:\Users\sansk\OneDrive\Desktop\New folder (5)\New folder (2)\gfg-hackathon\CropRecommender\recommender.pkl', 'rb'))
 
 @app.route('/predict', methods=['POST'])
 def predict():
