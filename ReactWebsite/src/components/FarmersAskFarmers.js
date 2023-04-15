@@ -20,7 +20,7 @@ class FarmersAskFarmers extends React.Component {
     const { infos } = this.props.info;
     return (
       <Container>
-        <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+        <div style={{ textAlign: 'center', marginBottom: '12rem' }}>
           <h2>Grow with the Community</h2>
         </div>
         <div>

@@ -54,7 +54,8 @@ class QuestionModal extends React.Component {
     };
 
     // Add item via addItem action
-
+    console.log(newQuestion);
+    // below line is giving error
     this.props.addQuestion(newQuestion);
 
     this.questionToggle();

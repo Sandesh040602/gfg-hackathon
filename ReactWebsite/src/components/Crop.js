@@ -28,6 +28,7 @@ const Crop = () => {
       })
       .catch((error) => {
         // do something with the error
+        console.log('MAA');
         console.log(error);
       });
   };
