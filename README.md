@@ -13,7 +13,13 @@ Some of its features are
 
 🎯 Farmers' community section having chat option, video upload, QnA, and many more other features to make our platform interactive
 
-## Scripts
+## Installation
+
+ Clone the repo
+ 
+```sh
+git clone https://github.com/Sandesh040602/gfg-hackathon.git
+```
 
 To install all frontend dependencies, backend dependencies and concurrently. Run
 
