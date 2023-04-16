@@ -30,3 +30,4 @@ def getAirInfoGeo(lat, lng):
     }
 
     return info
+
