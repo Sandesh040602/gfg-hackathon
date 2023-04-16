@@ -5,7 +5,7 @@
   </a>
 
   <h2 align="center">AgroBoost</h2>
-  <h5 align="center"><em>(Using Flask)</em></h5>
+  <h5 align="center"><em>(Using MERN stack)</em></h5>
 </p>
 
 
