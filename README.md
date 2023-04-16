@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="sandesh.jpg" alt="Logo" width="180" height="180">
+    <img src="images/agroboost-icon.jpg" alt="Logo" width="180" height="180">
   </a>
 
   <h2 align="center">AgroBoost</h2>
@@ -75,16 +75,16 @@ npm run dev
 ## Photos
 
 ### Home Page
-![Home Page](https://github.com/Sandesh040602/gfg-hackathon/blob/main/g.png)
+![Home Page](https://github.com/Sandesh040602/gfg-hackathon/blob/main/images/homepage.png)
 
 ### About
-![About](https://github.com/Sandesh040602/gfg-hackathon/blob/main/c.png)
+![About](https://github.com/Sandesh040602/gfg-hackathon/blob/main/images/about.png)
 
 ### Location
-![Location](https://github.com/Sandesh040602/gfg-hackathon/blob/main/d.png)
+![Location](https://github.com/Sandesh040602/gfg-hackathon/blob/main/images/location.png)
 
 ### Crop Suggest
-![Crop Suggest](https://github.com/Sandesh040602/gfg-hackathon/blob/main/e.png)
+![Crop Suggest](https://github.com/Sandesh040602/gfg-hackathon/blob/main/images/cropsuggest.png)
 
 
 ## Usage
