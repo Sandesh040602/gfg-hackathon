@@ -62,16 +62,16 @@ npm run dev
 
 ## Photos
 
-#Home Page
+### Home Page
 ![Home Page](https://github.com/Sandesh040602/gfg-hackathon/blob/main/g.png)
 
-#About
+### About
 ![About](https://github.com/Sandesh040602/gfg-hackathon/blob/main/c.png)
 
-#Location
+### Location
 ![Location](https://github.com/Sandesh040602/gfg-hackathon/blob/main/d.png)
 
-#Crop Suggest
+### Crop Suggest
 ![Crop Suggest](https://github.com/Sandesh040602/gfg-hackathon/blob/main/e.png)
 
 
