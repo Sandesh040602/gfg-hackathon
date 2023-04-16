@@ -12,8 +12,12 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', classes=30, autoshape = False)
 # the below line is giving error of no such file or directory.
+<<<<<<< HEAD
 model.load_state_dict(torch.load(r'AIBackend/5s.pt', map_location = 'cpu')['model'].state_dict())
 
+=======
+model.load_state_dict(torch.load(r'AIBackend\5s.pt', map_location = 'cpu')['model'].state_dict())
+>>>>>>> 5dd53f1abad94c7096429e7bfc28e01848316328
 model = model.autoshape()
 # model = torch.hub.load('ultralytics/yolov5', 'custom', path_or_model = 'best.pt', map_location = 'cpu')
 model = model.to(device).eval()

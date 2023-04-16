@@ -18,7 +18,7 @@ app.use(
 );
 
 // DB config
-const db = 'mongodb://localhost/annadata';
+const db = process.env.MONGODB_URL || 'mongodb://localhost/annadata';
 
 // connect to mongo
 mongoose
@@ -39,7 +39,9 @@ app.use('/api/weatherForecast', require('./routes/api/weatherForecast'));
 app.use('/api/otp', require('./routes/api/otp'));
 app.use('/api/upload', require('./routes/api/upload'));
 app.use('/api/ambeedata', require('./routes/api/ambeedata'));
-
+app.use('/', (req, res) => {
+  res.json({ message: 'Hello From Express App' });
+});
 app.use('/api/questions', require('./routes/api/questions'));
 app.use('/api/infos', require('./routes/api/infos'));
 
