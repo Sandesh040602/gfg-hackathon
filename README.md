@@ -1,4 +1,13 @@
-#                                                               Annadata
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="sandesh.jpg" alt="Logo" width="180" height="180">
+  </a>
+
+  <h2 align="center">AgroBoost</h2>
+  <h5 align="center"><em>(Using Flask)</em></h5>
+</p>
+
 
 Annadata is a full-stack cross-platform application that provides complete assistance to farmers right from sowing to harvesting.
 Some of its features are
