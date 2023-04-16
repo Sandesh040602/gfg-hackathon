@@ -86,6 +86,9 @@ npm run dev
 ### Crop Suggest
 ![Crop Suggest](https://github.com/Sandesh040602/gfg-hackathon/blob/main/images/cropsuggest.png)
 
+### Machine Configuration
+![Machine Configuration](https://github.com/Sandesh040602/gfg-hackathon/blob/main/images/machine_config.png)
+
 
 ## Usage
 Agroboost uses ML tech for disease detection and crop recommendations to provide real-time data on soil fertility, weather, weed risk, and air quality. Equipment trading is available, as well as a farmer community section with chat, video upload, Q&A, and more.
