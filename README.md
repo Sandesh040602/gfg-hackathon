@@ -88,7 +88,7 @@ npm run dev
 
 ### Machine Configuration
 ![Machine Configuration](https://github.com/Sandesh040602/gfg-hackathon/blob/main/images/machine_config.png)
-
+<br>Google Cloud VM Configuration with AMD Instance
 
 ## Usage
 Agroboost uses ML tech for disease detection and crop recommendations to provide real-time data on soil fertility, weather, weed risk, and air quality. Equipment trading is available, as well as a farmer community section with chat, video upload, Q&A, and more.
