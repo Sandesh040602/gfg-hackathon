@@ -9,7 +9,10 @@
 </p>
 
 
-Annadata is a full-stack cross-platform application that provides complete assistance to farmers right from sowing to harvesting.
+Agroboost is a comprehensive cross-platform app for farmers, offering assistance from sowing to harvesting. It uses ML tech for disease detection and crop recommendations. It provides real-time data on soil fertility, weather, weed risk, and air quality. Cost analysis and income source suggestions are included. Equipment trading is available, as well as a farmer community section with chat, video upload, Q&A, and more.
+We have also deployed the project website on google cloud using AMD instance.
+
+<br>
 Some of its features are
 
 1. Using ML technology for plant disease detection from image and recommending crops to grow based on farmer's location
@@ -84,5 +87,8 @@ npm run dev
 ![Crop Suggest](https://github.com/Sandesh040602/gfg-hackathon/blob/main/e.png)
 
 
+## Usage
+Agroboost uses ML tech for disease detection and crop recommendations to provide real-time data on soil fertility, weather, weed risk, and air quality. Equipment trading is available, as well as a farmer community section with chat, video upload, Q&A, and more.
 
-
+## Stargazers
+[![Stargazers repo roster for @Sandesh040602/gfg-hackathon](https://reporoster.com/stars/Sandesh040602/gfg-hackathon)](https://github.com/Sandesh040602/gfg-hackathon/stargazers)
