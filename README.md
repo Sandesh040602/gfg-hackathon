@@ -70,7 +70,7 @@ npm run dev
 
 - [JWT](https://jwt.io/) for secure authentication
 
-- [Zulip API](https://zulip.com/api/running-bots) for Zulip Chat bot
+<!--- [Zulip API](https://zulip.com/api/running-bots) for Zulip Chat bot -->
 
 ## Photos
 
